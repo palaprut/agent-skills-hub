@@ -20,6 +20,7 @@ npx skills@latest add palaprut/agent-skills-hub --skill teach
 | `handoff` | Summarize a session for another agent |
 | `implement` | Implement work from a spec or tickets |
 | `retro` | Review a coding session for process improvements |
+| `skill-hub-sync` | Install a requested skill and sync it to this hub |
 | `teach` | Build lessons and learning records |
 | `to-spec` | Turn a conversation into a spec |
 | `to-tickets` | Break a spec or plan into linked tickets |
@@ -28,6 +29,6 @@ Some skills refer to companion skills such as `grilling`, `domain-modeling`, `td
 
 ## Source and license
 
-These skills originated from [mattpocock/skills](https://github.com/mattpocock/skills). This hub collects installed copies; it does not claim authorship. The upstream MIT license and copyright notice are included in [LICENSE](LICENSE). Check upstream for newer versions.
+The original skills in this hub originated from [mattpocock/skills](https://github.com/mattpocock/skills). This hub collects installed copies; it does not claim authorship. The upstream MIT license and copyright notice are included in [LICENSE](LICENSE). Check upstream for newer versions. `skill-hub-sync` was created for this hub.
 
 The older local `code-review` copy differed from the recently installed version. It is preserved in `legacy/` for reference; the version in `skills/code-review/` is the installable one.
