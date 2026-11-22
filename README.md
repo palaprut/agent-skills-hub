@@ -35,6 +35,11 @@ The hub also backs up user-level agent profiles that can be reused across projec
 
 To restore the profile across Codex projects, copy `agents/codex/inventor.toml` to `~/.codex/agents/inventor.toml`. For another harness, use the profile's description and instructions in its user-level agent format.
 
+## Setup guides
+
+- [Discord MCP on Windows](setup/discord/README.md) restores the local Discord bot integration.
+- [Autodesk Inventor on Windows](setup/inventor/README.md) restores the agent and verifies access to a running Inventor session.
+
 ## Source and license
 
 The original skills in this hub originated from [mattpocock/skills](https://github.com/mattpocock/skills). This hub collects installed copies; it does not claim authorship. The upstream MIT license and copyright notice are included in [LICENSE](LICENSE). Check upstream for newer versions. `skill-hub-sync` was created for this hub.
