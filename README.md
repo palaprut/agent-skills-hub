@@ -27,6 +27,14 @@ npx skills@latest add palaprut/agent-skills-hub --skill teach
 
 Some skills refer to companion skills such as `grilling`, `domain-modeling`, `tdd`, `writing-for-agents`, or `setup-matt-pocock-skills`. Install those from [Matt Pocock's upstream skills repository](https://github.com/mattpocock/skills) when a workflow calls for them.
 
+## Codex agents
+
+The hub also backs up user-level agent profiles that can be reused across projects.
+
+- [inventor](agents/codex/inventor.toml) handles Autodesk Inventor work on Windows.
+
+To restore the profile across Codex projects, copy `agents/codex/inventor.toml` to `~/.codex/agents/inventor.toml`. For another harness, use the profile's description and instructions in its user-level agent format.
+
 ## Source and license
 
 The original skills in this hub originated from [mattpocock/skills](https://github.com/mattpocock/skills). This hub collects installed copies; it does not claim authorship. The upstream MIT license and copyright notice are included in [LICENSE](LICENSE). Check upstream for newer versions. `skill-hub-sync` was created for this hub.
