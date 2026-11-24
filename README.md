@@ -32,7 +32,7 @@ Some skills refer to companion skills such as `grilling`, `domain-modeling`, `td
 
 The hub also backs up user-level agent profiles that can be reused across projects.
 
-- [inventor](agents/codex/inventor.toml) handles Autodesk Inventor work on Windows.
+- [inventor](agents/codex/inventor.toml) handles Autodesk Inventor work on Windows. The profile requires kilograms for mass, fully defined sketches and features, native assembly constraints, and a final verification pass on saved files.
 
 To restore the profile across Codex projects, copy `agents/codex/inventor.toml` to `~/.codex/agents/inventor.toml`. For another harness, use the profile's description and instructions in its user-level agent format.
 
