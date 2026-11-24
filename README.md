@@ -15,6 +15,7 @@ npx skills@latest add palaprut/agent-skills-hub --skill teach
 | Skill | Purpose |
 | --- | --- |
 | `code-review` | Review a code diff against repository standards and a spec |
+| `find-skills` | Discover agent skills from public repositories |
 | `grill-me` | Interview the user to sharpen a plan or design |
 | `grill-with-docs` | Interview and create supporting design documents |
 | `handoff` | Summarize a session for another agent |
@@ -43,5 +44,7 @@ To restore the profile across Codex projects, copy `agents/codex/inventor.toml` 
 ## Source and license
 
 The original skills in this hub originated from [mattpocock/skills](https://github.com/mattpocock/skills). This hub collects installed copies; it does not claim authorship. The upstream MIT license and copyright notice are included in [LICENSE](LICENSE). Check upstream for newer versions. `skill-hub-sync` was created for this hub.
+
+[`find-skills`](skills/find-skills/SKILL.md) is from [Vercel Labs](https://github.com/vercel-labs/skills/tree/main/skills/find-skills) and includes its [MIT license and copyright notice](skills/find-skills/LICENSE).
 
 The older local `code-review` copy differed from the recently installed version. It is preserved in `legacy/` for reference; the version in `skills/code-review/` is the installable one.
