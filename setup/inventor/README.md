@@ -3,7 +3,7 @@
 This setup pairs the reusable [`inventor` agent](../../agents/codex/inventor.toml) with a local Autodesk Inventor session and Python COM automation.
 
 1. Install and open Autodesk Inventor on Windows. Use the version required by the target project. The read-only COM check below was verified against Inventor 2027.2.
-2. Copy the agent profile to `~/.codex/agents/inventor.toml`. For another harness, copy its description and instructions into that harness's user-level agent format. The harness needs to run Python on the same Windows desktop as Inventor.
+2. Copy `inventor.toml` and `inventor-workflow.ps1` from `agents/codex/` into your Codex agents directory. Install GitHub Copilot CLI and make `copilot` available on PATH. For another harness, copy its description and instructions into that harness's user-level agent format. The harness needs to run Python on the same Windows desktop as Inventor.
 3. Install `pywin32` into the Python environment the harness will use.
 
    ```powershell
