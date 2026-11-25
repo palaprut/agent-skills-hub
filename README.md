@@ -25,6 +25,7 @@ npx skills@latest add palaprut/agent-skills-hub --skill teach
 | `teach` | Build lessons and learning records |
 | `to-spec` | Turn a conversation into a spec |
 | `to-tickets` | Break a spec or plan into linked tickets |
+| [`ui-ux-pro-max`](skills/ui-ux-pro-max/SKILL.md) | Search UI/UX guidance and generate design systems for web, mobile, and desktop |
 
 Some skills refer to companion skills such as `grilling`, `domain-modeling`, `tdd`, `writing-for-agents`, or `setup-matt-pocock-skills`. Install those from [Matt Pocock's upstream skills repository](https://github.com/mattpocock/skills) when a workflow calls for them.
 
@@ -46,5 +47,7 @@ To restore the profile across Codex projects, copy `agents/codex/inventor.toml` 
 The original skills in this hub originated from [mattpocock/skills](https://github.com/mattpocock/skills). This hub collects installed copies; it does not claim authorship. The upstream MIT license and copyright notice are included in [LICENSE](LICENSE). Check upstream for newer versions. `skill-hub-sync` was created for this hub.
 
 [`find-skills`](skills/find-skills/SKILL.md) is from [Vercel Labs](https://github.com/vercel-labs/skills/tree/main/skills/find-skills) and includes its [MIT license and copyright notice](skills/find-skills/LICENSE).
+
+[`ui-ux-pro-max`](skills/ui-ux-pro-max/SKILL.md) is from [Next Level Builder](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/8db36338810d0942567b97ce439affd1619fcf31) under the [MIT license](skills/ui-ux-pro-max/LICENSE). Its bundled catalogs retain [upstream data attribution](skills/ui-ux-pro-max/data/data-provenance.json) and the Phosphor license notices.
 
 The older local `code-review` copy differed from the recently installed version. It is preserved in `legacy/` for reference; the version in `skills/code-review/` is the installable one.
