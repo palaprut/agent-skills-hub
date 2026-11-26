@@ -26,6 +26,7 @@ npx skills@latest add palaprut/agent-skills-hub --skill teach
 | `teach` | Build lessons and learning records |
 | `to-spec` | Turn a conversation into a spec |
 | `to-tickets` | Break a spec or plan into linked tickets |
+| [`unslop`](skills/unslop/SKILL.md) | Remove AI writing patterns while preserving meaning and tone |
 | [`ui-ux-pro-max`](skills/ui-ux-pro-max/SKILL.md) | Search UI/UX guidance and generate design systems for web, mobile, and desktop |
 | [`web-design-guidelines`](skills/web-design-guidelines/SKILL.md) | Review web interfaces for accessibility and usability |
 
@@ -55,5 +56,7 @@ The original skills in this hub originated from [mattpocock/skills](https://gith
 [`frontend-design`](skills/frontend-design/SKILL.md) comes from [Anthropic](https://github.com/anthropics/skills/tree/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/frontend-design) under the [Apache 2.0 license](skills/frontend-design/LICENSE.txt).
 
 [`web-design-guidelines`](skills/web-design-guidelines/SKILL.md) comes from [Vercel](https://github.com/vercel-labs/agent-skills/tree/5a37a6329fbad3666c3207392a6a7c0110e92efb/skills/web-design-guidelines). Its bundled guidelines are attributed to the [pinned upstream source](https://github.com/vercel-labs/web-interface-guidelines/blob/434b7f91364665f2f733b310ec54809bf8f37937/command.md) and include its [MIT license](skills/web-design-guidelines/LICENSE).
+
+[`unslop`](skills/unslop/SKILL.md) comes from [Lauren Tan's pstack plugin](https://github.com/cursor/plugins/tree/main/pstack/skills/unslop) under the [MIT license](skills/unslop/LICENSE).
 
 The older local `code-review` copy differed from the recently installed version. It is preserved in `legacy/` for reference; the version in `skills/code-review/` is the installable one.
