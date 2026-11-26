@@ -35,7 +35,7 @@ Some skills refer to companion skills such as `grilling`, `domain-modeling`, `td
 
 The hub also backs up user-level agent profiles that can be reused across projects.
 
-- [inventor](agents/codex/inventor.toml) handles Autodesk Inventor CAD work on Windows. It uses the [workflow helper](agents/codex/inventor-workflow.ps1) to record the initial Copilot CLI attempt and verify the requested output files before delivery. It requires kilograms, fully defined sketches and features, native assembly constraints, and final verification of saved files.
+- [inventor](agents/codex/inventor.toml) handles Autodesk Inventor CAD work on Windows. It handles trivial, reversible edits directly and uses Copilot CLI for bounded tasks with several steps. Its [workflow helper](agents/codex/inventor-workflow.ps1) records the chosen route and verifies the requested output files before delivery. It requires kilograms, fully defined sketches and features, native assembly constraints, and final verification of saved files.
 
 To restore the profile, copy the TOML profile and PowerShell helper together to the Codex agents directory. Follow the [Inventor setup](setup/inventor/README.md) for the CLI and COM prerequisites.
 
