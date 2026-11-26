@@ -1,5 +1,7 @@
 # Agent Skills Hub
 
+> **Moved:** this hub now lives at [palaprut/agent-hub](https://github.com/palaprut/agent-hub) (private), which stores skills and agents in harness-neutral formats. This repository is no longer updated.
+
 A public, agent-readable collection of skills installed by `palaprut`. Each installable skill is in `skills/<name>/SKILL.md`. AI agents can read those files directly from GitHub, and agents supported by the [skills CLI](https://www.skills.sh/docs) can install them with:
 
 ```sh
